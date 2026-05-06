@@ -1,12 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meat http-equiv="X-UA-Compatible" content="ie-edge">
-            <title>Document</title>
-    </head>
-    <body>
-        <h1>test</h1>
-    </body>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>ACLCLP SIGAI  </title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <!-- <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/> -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="config.js"></script>
+
+    <script src="style.js"></script>
+</head>
+
+<body class="bg-white text-on-surface antialiased font-body-md">
+
+<!-- 導覽列 -->
+<nav class="bg-white/80 backdrop-blur-md border-b border-teal-200/40 sticky top-0 z-50 h-20 flex items-center">
+    <div class="main-container flex justify-between items-center">
+        <div class="text-xl font-bold text-brand-dark">ACLCLP SIGAI  </div>
+        <div class="hidden md:flex items-center gap-8">
+            <a class="nav-link" href="#shared_task">Shared Tasks</a>
+            <a class="nav-link" href="#tutorial">AI Tutorials</a>
+            <a class="nav-link" href="#convener">Conveners</a>
+            <!-- <a class="nav-link" href="#">Team</a> -->
+        </div>
+        <!-- <div class="flex items-center gap-4">
+            <button class="btn-primary px-6 py-2">Join Research</button>
+        </div> -->
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section class="relative min-h-[150px] flex items-center bg-gradient-to-b from-brand-teal/20 to-white py-xl">
+        <div class="main-container text-center flex flex-col items-center gap-md">
+            <!-- <div class="inline-flex items-center gap-2 bg-brand-teal/30 px-4 py-2 rounded-full border border-brand-teal/50 text-brand-dark text-sm">
+                <span class="w-2 h-2 rounded-full bg-brand-blue-light animate-pulse"></span>
+                SIGAI
+            </div> -->
+            <h1 class="text-5xl md:text-7xl font-bold text-brand-dark max-w-4xl font-h1">ACLCLP SIGAI  </h1>
+            <!-- <p class="text-lg text-slate-700 max-w-2xl">Advancing computational research through rigorous methodology and open datasets.</p> -->
+            <!-- <div class="flex gap-4 mt-4">
+                <button class="btn-primary">Explore Methodology <span class="material-symbols-outlined text-[18px]">arrow_forward</span></button>
+                <button class="btn-outline">View Publications</button>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Shared Tasks Section -->
+    <section class="py-24" id="shared_task">
+        <div class="main-container">
+            <div class="section-header border-brand-blue-light">
+                <div class="flex items-center gap-3 text-brand-blue-light">
+                    <span class="material-symbols-outlined text-4xl">hub</span>
+                    <h2 class="text-4xl font-bold text-brand-dark font-h2">Shared Tasks</h2>
+                </div>
+                <!-- <p class="text-slate-600">Annual competitive challenges for global research teams.</p> -->
+            </div>
+            <div class="grid grid-cols-1 gap-8">
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2026</div>
+                    <h1 class="card-title web-link"><a href="https://rocling-sigai.github.io/task2026/" target="_blank">ROCLING-2026 Shared Task: Chinese Dimensional Sentiment Analysis for New Immigrants’ Daily Feelings</a>
+                    </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>林孜彌 Tzu-Mi Lin, 劉雯妮Wen-Ni Liu, 李龍豪 Lung-Hao Lee, 湯晏甄 Yen-Chen Tang</span></div>
+                        <!-- <div class="card-meta"><span class="material-symbols-outlined text-[#566B17] text-[30px]">dataset</span><span><a href=" https://github.com/NYCU-NLP/ROCLING-2025-ST-DSA-MST"> https://github.com/NYCU-NLP/ROCLING-2025-ST-DSA-MST</a></span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#DEAC80] text-[30px]">menu_book</span><span>Lung-Hao Lee, Tzu-Mi Lin, Hsiu-Min Shih, Kuo-Kai Shyu, Anna S. Hsu, and Peih-Yinh Lu. 2025. ROCLING 2025 Shared Task: Chinese Dimensional Sentiment Analysis for Medical Self-reflection Texts. In <i>Proceedings of the 37th Conference on Computational Linguistics and Speech Processing (ROCLING'25)</i>, pages 375-380.</span></div> -->
+                      </div>
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2025</div>
+                    <h1 class="card-title web-link"><a href="https://rocling-sigai.github.io/task2025/" target="_blank">ROCLING-2025 Shared Task: Chinese Dimensional Sentiment Analysis for Medical Self-Reflection Texts</a>
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>李龍豪 Lung-Hao Lee, 林孜彌 Tzu-Mi Lin, 施琇敏 Hsiu-Min Shih, 徐國鎧 Kuo-Kai Shyu, 許善淳 Anna S. Hsu, 呂佩穎 Peih-Ying Lu</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#A5C9C4] text-[30px]">dataset</span><span><a href="https://github.com/NYCU-NLP/ROCLING-2025-ST-DSA-MST" class="web-link" target="_blank"> https://github.com/NYCU-NLP/ROCLING-2025-ST-DSA-MST</a></span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#DEAC80] text-[30px]">menu_book</span><span>Lung-Hao Lee, Tzu-Mi Lin, Hsiu-Min Shih, Kuo-Kai Shyu, Anna S. Hsu, and Peih-Yinh Lu. 2025. <a href="https://aclanthology.org/2025.rocling-main.41/" target="_blank" class="web-link">ROCLING 2025 Shared Task: Chinese Dimensional Sentiment Analysis for Medical Self-reflection Texts.</a> In <i>Proceedings of the 37th Conference on Computational Linguistics and Speech Processing (ROCLING'25)</i>, pages 375-380.</span></div>
+                      </div>
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2024</div>
+                    <h1 class="card-title web-link"><a href="https://dimabsa2024.github.io/" target="_blank" >SIGHAN-2024 Shared Task: Chinese Dimensional Aspect-Based Sentiment Analysis</a>
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>李龍豪 Lung-Hao Lee, 禹良治 Liang-Chih Yu, 王素格 Suge Wang, 廖健 Jian Liao</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#A5C9C4] text-[30px]">dataset</span><span><a href="https://github.com/NYCU-NLP/SIGHAN2024-dimABSA" class="web-link" target="_blank"> https://github.com/NYCU-NLP/SIGHAN2024-dimABSA</a></span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#DEAC80] text-[30px]">menu_book</span><span>Lung-Hao Lee, Liang-Chih Yu, Suge Wang, and Jian Liao. 2024. <a href="https://aclanthology.org/2024.sighan-1.19/" class="web-link" target="_blank">Overview of the SIGHAN 2024 Shared Task for Chinese Dimensional Aspect-Based Sentiment Analysis.</a> In <i>Proceedings of the 10th SIGHAN Workshop on Chinese Language Processing (SIGHAN'24)</i>, pages 165-174.</span></div>
+                      </div>
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2023</div>
+                    <h1 class="card-title web-link"><a href="https://rocling-sigai.github.io/task2023/" target="_blank" >ROCLING-2023 Shared Task: Chinese Multi-genre Named Entity Recognition in the Healthcare Domain</a>
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>李龍豪 Lung-Hao Lee, 林孜彌 Tzu-Mi Lin, 陳昭沂 Chao-Yi Chen</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#A5C9C4] text-[30px]">dataset</span><span><a href="https://github.com/NYCU-NLP/ROCLING-2023-ST-MultiNERHealth" class="web-link" target="_blank"> https://github.com/NYCU-NLP/ROCLING-2023-ST-MultiNERHealth</a></span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#DEAC80] text-[30px]">menu_book</span><span>Lung-Hao Lee, Tzu-Mi Lin and Chao-Yi Chen. 2023. <a href="https://aclanthology.org/2023.rocling-1.42/" class="web-link" target="_blank">Overview of the ROCLING 2023 Shared Task for Chinese Multi-genre Named Entity Recognition in the Healthcare Domain.</a> In <i>Proceedings of the 35th Conference on Computational Linguistics and Speech Processing (ROCLING’23)</i>, pages 333-338.</span></div>
+                      </div>
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2022</div>
+                    <h1 class="card-title web-link"><a href="https://rocling-sigai.github.io/task2022/" target="_blank" >ROCLING-2022 Shared Task: Chinese Healthcare Named Entity Recognition</a>
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>李龍豪 Lung-Hao Lee, 陳昭沂 Chao-Yi Chen, 禹良治 Liang-Chih Yu, 曾元顯 Yuen-Hsien Tseng</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#A5C9C4] text-[30px]">dataset</span><span><a href="https://github.com/NYCU-NLP/ROCLING-2022-ST-CHNER" class="web-link" target="_blank"> https://github.com/NYCU-NLP/ROCLING-2022-ST-CHNER</a></span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#DEAC80] text-[30px]">menu_book</span><span>Lung-Hao Lee, Chao-Yi Chen, Liang-Chih Yu, and Yuen-Hsien Tseng. 2022. <a href="https://aclanthology.org/2022.rocling-1.46/" class="web-link" target="_blank">Overview of the ROCLING 2022 Shared Task for Chinese Healthcare Named Entity Recognition.</a> In <i>Proceedings of the 34th Conference on Computational Linguistics and Speech Processing (ROCLING’22)</i>, pages 363-368.</span></div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="bg-brand-teal/10 py-24" id="tutorial">
+        <div class="main-container">
+            <div class="section-header border-brand-olive">
+                <div class="flex items-center gap-3 text-brand-olive">
+                    <span class="material-symbols-outlined text-4xl">model_training</span>
+                    <h2 class="font-h2 text-4xl md:text-5xl font-bold text-brand-dark">AI Tutorials</h2>
+                </div>
+                <!-- <p class="font-body-lg text-slate-600">Advanced educational resources in machine learning.</p> -->
+            </div>
+
+            <div class="grid grid-cols-1 gap-8">
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2025</div>
+                    <h1 class="card-title">ROCLING 2025: Tutorials:
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <h1 class="card-subtitle">Tutorial I: AI-Driven Hearing Assistive Technologies: From Algorithm Innovation to Regulatory Readiness
+                        </h1>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>賴穎暉 Ying-Hui Lai</span></div>
+                    <!-- </div>
+
+                    <div class="card-footer"> -->
+                        <h1 class="card-subtitle">Tutorial II: Hearing through Light: Deep Learning and Optical Microphones for Robust Speech Reconstruction and Audio Intelligence
+                        </h1>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>賴穎暉 Ying-Hui Lai</span></div>
+                    </div>
+
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2025</div>
+                    <h1 class="card-title web-link">AI Tutorial 2025: Chinese Dimensional Sentiment Analysis
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>禹良治 Liang-Chih Yu, 林孜彌 Tzu-Mi Lin, 李龍豪 Lung-Hao Lee</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#B99470] text-[30px]">book</span><span><a href="https://github.com/NYCU-NLP/AITutorial-2025-ChineseDSA" class="web-link" target="_blank">https://github.com/NYCU-NLP/AITutorial-2025-ChineseDSA</a></span></div>
+                      </div>
+                </div>
+
+                <div class="content-card">
+                    <!-- <div class="card-badge"><span class="material-symbols-outlined">hub</span> 2024</div> -->
+                    <div class="card-badge">2022</div>
+                    <h1 class="card-title web-link">AI Tutorial 2022: Chinese Named Entity Recognition
+                      </h1>
+                    
+                    <div class="card-footer">
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#89A3B2] text-[30px]">person</span><span>李龍豪 Lung-Hao Lee, 林孜彌 Tzu-Mi Lin</span></div>
+                        <div class="card-meta"><span class="material-symbols-outlined text-[#B99470] text-[30px]">book</span><span><a href="https://github.com/NYCU-NLP/AITutorial-2022-ChineseNER" class="web-link" target="_blank">https://github.com/NYCU-NLP/AITutorial-2022-ChineseNER</a></span></div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Conveners Section (恢復並整理) -->
+    <section class="w-full bg-brand-teal/20 py-24" id="convener">
+        <div class="main-container">
+            <div class="flex flex-col mb-16 text-center items-center gap-4">
+                <h2 class="text-4xl md:text-5xl font-bold text-brand-dark font-h2">Conveners</h2>
+                <!-- <p class="text-slate-700 max-w-2xl">Guided by distinguished leaders from top-tier academic institutions.</p> -->
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Convener 1 -->
+                <div class="convener-card">
+                    <div class="convener-icon-wrap bg-brand-blue-light/10 text-brand-blue-dark">
+                        <span class="material-symbols-outlined text-4xl">cognition</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-brand-dark font-h3">Lung-Hao Lee (2022- present)</h3>
+                    <p class="text-brand-blue-dark font-bold uppercase tracking-wider text-sm">Associate Professor</p>
+                    <p class="text-slate-600">Institute of Artificial Intelligence Innovation<br>National Yang Ming Chiao Tung University</p>
+                    <div class="flex gap-4 mt-4 text-slate-400">
+                        <a class="hover:text-brand-blue-dark transition-colors" href="mailto:lhlee@nycu.edu.tw"><span class="material-symbols-outlined">mail</span></a>
+                    </div>
+                </div>
+
+                <!-- Convener 2 -->
+                <div class="convener-card">
+                    <div class="convener-icon-wrap bg-brand-olive/10 text-brand-olive">
+                        <span class="material-symbols-outlined text-4xl">psychology</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-brand-dark font-h3">Hung-yi Lee ( - 2021)</h3>
+                    <p class="text-brand-blue-dark font-bold uppercase tracking-wider text-sm">Professor</p>
+                    <p class="text-slate-600">Department of Electrical Engineering<br>National Taiwan University</p>
+                    <div class="flex gap-4 mt-4 text-slate-400">
+                        <a class="hover:text-brand-blue-dark transition-colors" href="mailto:hungyilee@ntu.edu.tw"><span class="material-symbols-outlined">mail</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</main>
+
+<footer class="bg-slate-50 border-t py-12">
+    <div class="main-container flex flex-col md:flex-row justify-between items-center gap-8 text-sm text-slate-500">
+        <div class="text-lg font-bold text-brand-dark">ACLCLP SIGAI  </div>
+        <!-- <div>© 2026 SIGAI</div> -->
+    </div>
+</footer>
+
+</body>
 </html>
